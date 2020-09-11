@@ -115,6 +115,17 @@ if &background ==# 'dark'
     hi StatusDiffFileSign ctermfg=139 ctermbg=NONE guifg=#9b85bb guibg=NONE guisp=NONE cterm=NONE gui=NONE
     hi StatusDiffFileSignNC ctermfg=139 ctermbg=237 guifg=#9b85bb guibg=#2b3740 guisp=NONE cterm=NONE gui=NONE
 
+    " nvim-treesitter Highlights {{{
+
+    highlight link TSConstructor Type
+    highlight link TSFuncBuiltin Function
+    highlight link TSFunction Function
+    highlight link TSField Normal
+    highlight link TSParameter Tag
+    highlight TSDefinitionUsage ctermfg=NONE ctermbg=237 guifg=NONE guibg=#2b3740 guisp=NONE cterm=NONE gui=NONE
+
+    " }}}
+
     " }}}
 
     if has("nvim")
@@ -254,6 +265,17 @@ hi IncSearch ctermfg=32 ctermbg=231 guifg=#0075c9 guibg=#fff8e7 guisp=NONE cterm
 
 hi StatusDiffFileSignNC ctermfg=133 ctermbg=254 guifg=#a154ae guibg=#efe4d2 guisp=NONE cterm=NONE gui=NONE
 hi StatusDiffFileSign ctermfg=133 ctermbg=NONE guifg=#a154ae guibg=NONE guisp=NONE cterm=NONE gui=NONE
+
+" nvim-treesitter Highlights {{{
+
+highlight link TSConstructor Type
+highlight link TSFuncBuiltin Function
+highlight link TSFunction Function
+highlight link TSField Normal
+highlight link TSParameter Tag
+highlight TSDefinitionUsage ctermfg=NONE ctermbg=254 guifg=NONE guibg=#efe4d2 guisp=NONE cterm=NONE gui=NONE
+
+" }}}
 
 " }}}
 
