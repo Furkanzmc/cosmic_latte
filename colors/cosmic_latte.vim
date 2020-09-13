@@ -120,6 +120,7 @@ if &background ==# 'dark'
     highlight link TSConstructor Type
     highlight link TSFuncBuiltin Function
     highlight link TSFunction Function
+    highlight link TSConstructor TSFunction
     highlight link TSField Normal
     highlight link TSParameter Tag
     highlight TSDefinitionUsage ctermfg=NONE ctermbg=237 guifg=NONE guibg=#2b3740 guisp=NONE cterm=NONE gui=NONE
@@ -272,6 +273,7 @@ hi StatusDiffFileSign ctermfg=133 ctermbg=NONE guifg=#a154ae guibg=NONE guisp=NO
 highlight link TSConstructor Type
 highlight link TSFuncBuiltin Function
 highlight link TSFunction Function
+highlight link TSConstructor TSFunction
 highlight link TSField Normal
 highlight link TSParameter Tag
 highlight TSDefinitionUsage ctermfg=NONE ctermbg=254 guifg=NONE guibg=#efe4d2 guisp=NONE cterm=NONE gui=NONE
