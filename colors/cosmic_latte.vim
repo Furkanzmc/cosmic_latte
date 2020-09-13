@@ -104,7 +104,7 @@ if &background ==# 'dark'
     hi Todo ctermfg=37 ctermbg=235 guifg=#459d90 guibg=#202a31 guisp=NONE cterm=NONE,reverse gui=NONE,reverse
     hi Boolean ctermfg=67 ctermbg=NONE guifg=#5496bd guibg=NONE guisp=NONE cterm=NONE gui=NONE
     hi Character ctermfg=67 ctermbg=NONE guifg=#5496bd guibg=NONE guisp=NONE cterm=NONE gui=NONE
-    hi Constant ctermfg=67 ctermbg=NONE guifg=#5496bd guibg=NONE guisp=NONE cterm=NONE gui=NONE
+    hi Constant ctermfg=32 ctermbg=NONE guifg=#9d8800 guibg=NONE guisp=NONE cterm=NONE gui=NONE
     hi Float ctermfg=67 ctermbg=NONE guifg=#5496bd guibg=NONE guisp=NONE cterm=NONE gui=NONE
     hi Number ctermfg=67 ctermbg=NONE guifg=#5496bd guibg=NONE guisp=NONE cterm=NONE gui=NONE
     hi String ctermfg=67 ctermbg=NONE guifg=#5496bd guibg=NONE guisp=NONE cterm=NONE gui=NONE
@@ -257,7 +257,7 @@ hi PreProc ctermfg=30 ctermbg=NONE guifg=#007f8a guibg=NONE guisp=NONE cterm=NON
 hi Todo ctermfg=30 ctermbg=231 guifg=#007f8a guibg=#fff8e7 guisp=NONE cterm=NONE,reverse gui=NONE,reverse
 hi Boolean ctermfg=32 ctermbg=NONE guifg=#0075c9 guibg=NONE guisp=NONE cterm=NONE gui=NONE
 hi Character ctermfg=32 ctermbg=NONE guifg=#0075c9 guibg=NONE guisp=NONE cterm=NONE gui=NONE
-hi Constant ctermfg=32 ctermbg=NONE guifg=#0075c9 guibg=NONE guisp=NONE cterm=NONE gui=NONE
+hi Constant ctermfg=32 ctermbg=NONE guifg=#80002d guibg=NONE guisp=NONE cterm=NONE gui=NONE
 hi Float ctermfg=32 ctermbg=NONE guifg=#0075c9 guibg=NONE guisp=NONE cterm=NONE gui=NONE
 hi Number ctermfg=32 ctermbg=NONE guifg=#0075c9 guibg=NONE guisp=NONE cterm=NONE gui=NONE
 hi String ctermfg=32 ctermbg=NONE guifg=#0075c9 guibg=NONE guisp=NONE cterm=NONE gui=NONE
