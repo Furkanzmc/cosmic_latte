@@ -128,6 +128,10 @@ if &background ==# 'dark'
 
     " }}}
 
+    if exists("$FZF_DEFAULT_OPTS")
+        let $FZF_DEFAULT_OPTS=substitute($FZF_DEFAULT_OPTS, "light", "dark", "g")
+    endif
+
     " }}}
 
     if has("nvim")
@@ -280,6 +284,10 @@ highlight TSDefinitionUsage ctermfg=NONE ctermbg=254 guifg=NONE guibg=#efe4d2 gu
 highlight link TSDefinition TSDefinitionUsage
 
 " }}}
+
+if exists("$FZF_DEFAULT_OPTS")
+    let $FZF_DEFAULT_OPTS=substitute($FZF_DEFAULT_OPTS, "dark", "light", "g")
+endif
 
 " }}}
 
