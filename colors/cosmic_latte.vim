@@ -38,7 +38,7 @@ if &background ==# 'dark'
     hi LineNr ctermfg=246 ctermbg=NONE guifg=#898f9e guibg=NONE guisp=NONE cterm=NONE gui=NONE
     hi ColorColumn ctermfg=NONE ctermbg=237 guifg=NONE guibg=#2b3740 guisp=NONE cterm=NONE gui=NONE
     hi CursorColumn ctermfg=NONE ctermbg=237 guifg=NONE guibg=#2b3740 guisp=NONE cterm=NONE gui=NONE
-    hi CursorLine ctermfg=NONE ctermbg=237 guifg=NONE guibg=#2b3740 guisp=NONE cterm=NONE gui=NONE
+    hi CursorLine ctermfg=NONE ctermbg=237 guifg=NONE guibg=#35444f guisp=NONE cterm=NONE gui=NONE
     hi DiffChange ctermfg=NONE ctermbg=237 guifg=NONE guibg=#2b3740 guisp=NONE cterm=NONE gui=NONE
     hi Folded ctermfg=NONE ctermbg=237 guifg=NONE guibg=#363a3e guisp=NONE cterm=NONE gui=NONE
     hi Pmenu ctermfg=145 ctermbg=237 guifg=#abb0c0 guibg=#2b3740 guisp=NONE cterm=NONE gui=NONE
@@ -195,7 +195,7 @@ hi CursorLineNr ctermfg=243 ctermbg=NONE guifg=#63757e guibg=NONE guisp=NONE cte
 hi LineNr ctermfg=243 ctermbg=NONE guifg=#63757e guibg=NONE guisp=NONE cterm=NONE gui=NONE
 hi ColorColumn ctermfg=NONE ctermbg=254 guifg=NONE guibg=#efe4d2 guisp=NONE cterm=NONE gui=NONE
 hi CursorColumn ctermfg=NONE ctermbg=254 guifg=NONE guibg=#efe4d2 guisp=NONE cterm=NONE gui=NONE
-hi CursorLine ctermfg=NONE ctermbg=254 guifg=NONE guibg=#efe4d2 guisp=NONE cterm=NONE gui=NONE
+hi CursorLine ctermfg=NONE ctermbg=254 guifg=NONE guibg=#e5dfcf guisp=NONE cterm=NONE gui=NONE
 hi DiffChange ctermfg=NONE ctermbg=254 guifg=NONE guibg=#efe4d2 guisp=NONE cterm=NONE gui=NONE
 hi Folded ctermfg=NONE ctermbg=254 guifg=NONE guibg=#F7E7CE guisp=NONE cterm=NONE gui=NONE
 hi Pmenu ctermfg=240 ctermbg=254 guifg=#485a62 guibg=#efe4d2 guisp=NONE cterm=NONE gui=NONE
