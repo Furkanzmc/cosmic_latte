@@ -128,6 +128,54 @@ if &background ==# 'dark'
 
     " }}}
 
+    " nvim-lspconfig Highlights {{{
+
+    highlight LspDiagnosticsError
+                \ ctermfg=168
+                \ ctermbg=NONE
+                \ guifg=#c17b8d
+                \ guibg=NONE
+                \ guisp=NONE
+                \ cterm=NONE
+                \ gui=NONE
+    highlight link LspDiagnosticsHint Normal
+    highlight link LspDiagnosticsInformation Normal
+    highlight LspDiagnosticsWarning
+                \ ctermfg=139
+                \ ctermbg=NONE
+                \ guifg=#9b85bb
+                \ guibg=NONE
+                \ guisp=NONE
+                \ cterm=NONE
+                \ gui=NONE
+
+    highlight LspDiagnosticsDefaultError
+                \ ctermfg=168
+                \ ctermbg=NONE
+                \ guifg=#c17b8d
+                \ guibg=NONE
+                \ guisp=NONE
+                \ cterm=NONE
+                \ gui=NONE
+
+    highlight link LspDiagnosticsDefaultHint Normal
+    highlight link LspDiagnosticsDefaultInformation Normal
+    highlight LspDiagnosticsDefaultWarning
+                \ ctermfg=139
+                \ ctermbg=NONE
+                \ guifg=#9b85bb
+                \ guibg=NONE
+                \ guisp=NONE
+                \ cterm=NONE
+                \ gui=NONE
+
+    highlight link LspDiagnosticsUnderlineError LspDiagnosticsDefaultError
+    highlight link LspDiagnosticsUnderlineHint LspDiagnosticsDefaultHint
+    highlight link LspDiagnosticsUnderlineInformation LspDiagnosticsDefaultInformation
+    highlight link LspDiagnosticsUnderlineWarning LspDiagnosticsDefaultWarning
+
+    " }}}
+
     if exists("$FZF_DEFAULT_OPTS")
         let $FZF_DEFAULT_OPTS=substitute($FZF_DEFAULT_OPTS, "light", "dark", "g")
     endif
@@ -282,6 +330,53 @@ highlight link TSField Normal
 highlight link TSParameter Tag
 highlight TSDefinitionUsage ctermfg=NONE ctermbg=254 guifg=NONE guibg=#efe4d2 guisp=NONE cterm=NONE gui=NONE
 highlight link TSDefinition TSDefinitionUsage
+
+" }}}
+
+" nvim-lspconfig Highlights {{{
+highlight LspDiagnosticsError
+            \ ctermfg=231
+            \ ctermbg=NONE
+            \ guifg=#c44756
+            \ guibg=NONE
+            \ guisp=NONE
+            \ cterm=NONE
+            \ gui=NONE
+highlight link LspDiagnosticsHint Normal
+highlight link LspDiagnosticsInformation Normal
+highlight LspDiagnosticsWarning
+            \ ctermfg=133
+            \ ctermbg=NONE
+            \ guifg=#a154ae
+            \ guibg=NONE
+            \ guisp=NONE
+            \ cterm=NONE
+            \ gui=NONE
+
+highlight LspDiagnosticsDefaultError
+            \ ctermfg=231
+            \ ctermbg=NONE
+            \ guifg=#c44756
+            \ guibg=NONE
+            \ guisp=NONE
+            \ cterm=NONE
+            \ gui=NONE
+
+highlight link LspDiagnosticsDefaultHint Normal
+highlight link LspDiagnosticsDefaultInformation Normal
+highlight LspDiagnosticsDefaultWarning
+            \ ctermfg=133
+            \ ctermbg=NONE
+            \ guifg=#a154ae
+            \ guibg=NONE
+            \ guisp=NONE
+            \ cterm=NONE
+            \ gui=NONE
+
+highlight link LspDiagnosticsUnderlineError LspDiagnosticsDefaultError
+highlight link LspDiagnosticsUnderlineHint LspDiagnosticsDefaultHint
+highlight link LspDiagnosticsUnderlineInformation LspDiagnosticsDefaultInformation
+highlight link LspDiagnosticsUnderlineWarning LspDiagnosticsDefaultWarning
 
 " }}}
 
