@@ -168,12 +168,6 @@ if &background ==# 'dark'
                 \ guisp=NONE
                 \ cterm=NONE
                 \ gui=NONE
-
-    highlight link LspDiagnosticsUnderlineError LspDiagnosticsDefaultError
-    highlight link LspDiagnosticsUnderlineHint LspDiagnosticsDefaultHint
-    highlight link LspDiagnosticsUnderlineInformation LspDiagnosticsDefaultInformation
-    highlight link LspDiagnosticsUnderlineWarning LspDiagnosticsDefaultWarning
-
     " }}}
 
     if exists("$FZF_DEFAULT_OPTS")
@@ -372,11 +366,6 @@ highlight LspDiagnosticsDefaultWarning
             \ guisp=NONE
             \ cterm=NONE
             \ gui=NONE
-
-highlight link LspDiagnosticsUnderlineError LspDiagnosticsDefaultError
-highlight link LspDiagnosticsUnderlineHint LspDiagnosticsDefaultHint
-highlight link LspDiagnosticsUnderlineInformation LspDiagnosticsDefaultInformation
-highlight link LspDiagnosticsUnderlineWarning LspDiagnosticsDefaultWarning
 
 " }}}
 
